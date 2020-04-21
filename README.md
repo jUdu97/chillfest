@@ -1,2 +1,0 @@
-# chillfest
-Created with CodeSandbox

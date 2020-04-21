@@ -1,0 +1,95 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #3e9dd8;
+}
+.options {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0em 0.25em;
+}
+.chill_box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 3px solid #751e20;
+  border-radius: 6px;
+  margin: 4px;
+  width: 40%;
+  background-color: #dfdc55;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+h1 {
+  font-size: 38px;
+  color: #751e20;
+}
+h2 {
+  font-size: 30px;
+  color: #75080a;
+}
+h3 {
+  color: #154561;
+  font-size: 28px;
+  text-decoration: underline;
+  text-align: center;
+}
+ul li, p {
+  font-family: "Kotta One";
+  font-size: 16px;
+}
+
+@media (min-width: 750px) {
+  .chill_box {
+    width: 30%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  ul li {
+    font-size: 20px;
+  }
+}
+@media (min-width: 950px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  ul li {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .options {
+    max-width: 950px;
+  }
+  .chill_box {
+    padding: 14px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 33px;
+  }
+  h3 {
+    font-size: 36px;
+  }
+}

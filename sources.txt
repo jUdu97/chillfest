@@ -1,0 +1,2 @@
+https://medium.com/@bhavaniravi/reactjs-buttons-cheatsheet-3d830533ac90
+https://github.com/melihmucuk/react-native-flat-button
