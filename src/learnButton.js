@@ -18,11 +18,9 @@ export default class LearnButton extends React.Component {
       buttonText: "Learn More"
     };
   }
-
   handleClick = () => {
-    let buttonText =
-      this.state.buttonText === "Learn More" ? "Learn Less" : "Learn More";
-    this.setState({ buttonText: buttonText });
+    let buttonText = this.state.buttonText === "Learn More" ? "Learn Less" : "Learn More"
+    this.setState({buttonText: buttonText})
   };
   render() {
     return (
@@ -32,7 +30,7 @@ export default class LearnButton extends React.Component {
         borderColor={"#751E20"}
         borderRadius={10}
         shadowHeight={5}
-        contentStyle={{fontFamily: "Montserrat"}}
+        contentStyle={{ fontFamily: "Montserrat" }}
         containerStyle={styles.buttonContainer}
         onClick={this.handleClick}
       >

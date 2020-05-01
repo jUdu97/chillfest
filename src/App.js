@@ -51,7 +51,52 @@ export default function App() {
             <LearnButton />
           </ul>
         </div>
+        <div id="sun">
+          <Sunflower />
+        </div>
+        <div id="#boom">
+          <Boombox />
+        </div>
+        <div id="#peace">
+          <Peacekeeper />
+        </div>
+        <div id="#leg">
+          <Legend />
+        </div>
       </section>
+    </div>
+  );
+}
+
+function Sunflower() {
+  return (
+    <div>
+      <h3>Sunflower Package Option</h3>
+      <p className="op_text">Beginner level pricing. For those just easing into the chilling. Starting level option for newcomers.</p>
+    </div>
+  );
+}
+function Boombox() {
+  return (
+    <div>
+      <h3>Boombox Package Option</h3>
+      <p className="op_text">Mid-tier 1 level pricing. Get more for your buck as a medium-grade chiller. More access to amenities on the festival property.</p>
+    </div>
+  );
+}
+function Peacekeeper() {
+  return (
+    <div>
+      <h3>Peacekepper Package Option</h3>
+      <p className="op_text">Mid-tier 2 level pricing. Better access. Better amenities. Better (higher) prices. Prepare for a pro-level medium chilling experience.</p>
+    </div>
+  );
+}
+function Legend() {
+  return (
+    <div>
+      <h3>Legend Package Option</h3>
+      <p className="op_text">High level pricing. Only for extremely practiced masters of zen. This package offers the full, ChillFest experience. Truly, an all access extravaganza awaits.</p>
     </div>
   );
 }
