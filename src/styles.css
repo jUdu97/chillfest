@@ -48,6 +48,9 @@ ul li, p {
   font-family: "Stoke";
   font-size: 13px;
 }
+.title_op {
+  color: #022336;
+}
 
 @media (min-width: 750px) {
   .chill_box {
